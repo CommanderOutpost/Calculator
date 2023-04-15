@@ -3,7 +3,7 @@ This is a simple calculator web application built using HTML, CSS, and JavaScrip
 
 
 ## Usage
-To use the calculator, simply open the index.html file in a web browser. You can use either the on-screen buttons or your keyboard to input numbers and perform calculations.
+To use the calculator, simply open the calculator.html file at https://commanderoutpost.github.io/Calculator/calculator.html in a web browser. You can use either the on-screen buttons or your keyboard to input numbers and perform calculations.
 
 
 ### Keyboard Controls
@@ -13,12 +13,12 @@ To use the calculator, simply open the index.html file in a web browser. You can
 * Clear: Press the C key.
 
 ### Files
-* index.html: The main HTML file that contains the calculator layout and structure.
+* calculator.html: The main HTML file that contains the calculator layout and structure.
 * styles.css: The CSS file that defines the styles for the calculator, including the layout, colors, and fonts.
 * calculator.js: The JavaScript file that contains the logic for handling user input, performing calculations, and updating the display.
 
 ### Code Structure
-* index.html contains the calculator's structure, with an input element for displaying the current value and a series of buttons for numbers, operators, and other functions. The buttons have onclick attributes that call the handleCalculatorInput function with their respective values.
+* calculator.html contains the calculator's structure, with an input element for displaying the current value and a series of buttons for numbers, operators, and other functions. The buttons have onclick attributes that call the handleCalculatorInput function with their respective values.
 * styles.css defines the overall styles and layout for the calculator, using a combination of the grid layout and other CSS properties to create a clean, modern design.
 * calculator.js contains the main logic for handling user input and performing calculations. The handleCalculatorInput function takes a button value as an argument and updates the calculator's state accordingly. The clearCalculator function resets the calculator's state and clears the input field.
 
