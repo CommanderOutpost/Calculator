@@ -11,7 +11,6 @@ To use the calculator, simply open the index.html file in a web browser. You can
 * Operators: Press the corresponding operator key (+, -, *, /).
 * Decimal: Press the . key.
 * Clear: Press the C key.
-* Equals: Press the Enter key.
 
 ### Files
 * index.html: The main HTML file that contains the calculator layout and structure.
@@ -19,9 +18,9 @@ To use the calculator, simply open the index.html file in a web browser. You can
 * calculator.js: The JavaScript file that contains the logic for handling user input, performing calculations, and updating the display.
 
 ### Code Structure
-index.html contains the calculator's structure, with an input element for displaying the current value and a series of buttons for numbers, operators, and other functions. The buttons have onclick attributes that call the handleCalculatorInput function with their respective values.
-styles.css defines the overall styles and layout for the calculator, using a combination of the grid layout and other CSS properties to create a clean, modern design.
-calculator.js contains the main logic for handling user input and performing calculations. The handleCalculatorInput function takes a button value as an argument and updates the calculator's state accordingly. The clearCalculator function resets the calculator's state and clears the input field.
+* index.html contains the calculator's structure, with an input element for displaying the current value and a series of buttons for numbers, operators, and other functions. The buttons have onclick attributes that call the handleCalculatorInput function with their respective values.
+* styles.css defines the overall styles and layout for the calculator, using a combination of the grid layout and other CSS properties to create a clean, modern design.
+* calculator.js contains the main logic for handling user input and performing calculations. The handleCalculatorInput function takes a button value as an argument and updates the calculator's state accordingly. The clearCalculator function resets the calculator's state and clears the input field.
 
 
 ## Customization
